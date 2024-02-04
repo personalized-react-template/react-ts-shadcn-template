@@ -11,6 +11,6 @@ Feel free to use this template.
 ## How to use this template
 
 - Make sure you've installed the latest [node.js](https://nodejs.org/en/download/).
-- Copy the following command and paste it into the terminal ``` npx degit personalized-react-template/react-ts-shadcn-template#main your-project-name ``` , change the project to your preference.
+- Copy the following command and paste it into the terminal ``` npx mugna-react-ts project-name ``` , change the project name to your preference.
 - Navigate to your project directory, run `npm install` to install all dependecies.
 - Run `npm run dev` to start the development server.
