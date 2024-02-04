@@ -11,7 +11,7 @@ type ThemeProviderProps = {
 const ThemeProvider = ({
   children,
   defaultTheme = "system",
-  storageKey = "personalizedReactTemplate",
+  storageKey = "mugnaReactTS",
   ...props
 }: ThemeProviderProps) => {
   const [theme, setTheme] = useState<Theme>(

@@ -1,4 +1,4 @@
-//import your component here
+//import your component here, entry point of all components
 import MetaTags from "./MetaTags";
 import Container from "./Container";
 import MainNav from "./MainNav";

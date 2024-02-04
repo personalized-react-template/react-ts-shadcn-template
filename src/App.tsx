@@ -14,7 +14,7 @@ const App = () => {
           index: true,
           element: <LandingPage />,
         },
-        { path: "sample-page2", element: <SamplePage /> }, //modify your own preference of relative path
+        { path: "sample-page2", element: <SamplePage /> }, //modify your preference relative path name
       ],
     },
   ]);
@@ -23,7 +23,7 @@ const App = () => {
     <>
       <ThemeProvider
         defaultTheme="system"
-        storageKey="personalizedReactTemplate"
+        storageKey="mugnaReactTS"
       >
         <RouterProvider router={router} />
       </ThemeProvider>
