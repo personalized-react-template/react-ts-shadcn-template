@@ -1,14 +1,26 @@
 import { Outlet } from "react-router-dom";
 import { MainNav, MetaTags } from "@/components";
+import { metadata } from "@/metadata";
 
 const RootLayout = () => {
   return (
     <>
-      <MetaTags
-        title="React + TypeScript + Shadcn-ui "
-        description="Put your description about your website"
-        keywords="react, typescript, shadcn-ui, react template, vite"
-      />
+      {metadata.map((meta, index) => (
+        <MetaTags
+          key={index}
+          title={meta.title}
+          description={meta.description}
+          keywords={meta.keywords}
+          author={meta.author}
+          twitterCard={meta.twitterCard}
+          twitterCreator={meta.twitterCreator}
+          twitterImage={meta.twitterImage}
+          twitterSite={meta.twitterSite}
+          fbImage={meta.fbImage}
+          fbType={meta.fbType}
+          fbUrl={meta.fbUrl}
+        />
+      ))}
       <MainNav />
       <Outlet />
     </>

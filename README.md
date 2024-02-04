@@ -4,4 +4,6 @@ This is my personalized React template. It will initialize all of my upcoming Re
 
 The recommended Vite configuration has already been implemented.
 
+SEO ready, modify your prefered metadata in metadata.ts. This uses react-helmet-async.
+
 Feel free to use this template.
