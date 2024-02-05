@@ -4,7 +4,7 @@ Easy to use and it is Dark mode ready.
 
 The recommended Vite configuration has already been implemented.
 
-SEO ready, modify your prefered metadata in metadata.ts. This uses react-helmet-async.
+SEO ready, modify your prefered metadata in `metadata.ts`. This uses [react-helmet-async](https://www.npmjs.com/package/react-helmet-async).
 
 ## Easy to create and ZERO configuration needed
 
@@ -12,12 +12,21 @@ SEO ready, modify your prefered metadata in metadata.ts. This uses react-helmet-
 - Copy the following command and paste it into the terminal
 
 ```sh
-npx mugna-react-ts project-name
+npx mugna-react-ts
 ```
 
-- Change the project name to your preference.
-- Navigate to your project directory, run `npm install` to install all dependecies.
-- Run `npm run dev` to start the development server.
+- Navigate to your project directory.
+- To install all dependecies, run
+
+```sh
+npm install
+```
+
+- To start the development server, run
+
+```sh
+npm run dev
+```
 
 ## Technologies
 
